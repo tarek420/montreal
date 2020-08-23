@@ -1,0 +1,271 @@
+/* RESPONSIVE FOR LARG DEVICE */
+@media (max-width:1024px){
+   #home h1 {
+      font-size: 14.6rem;
+  }
+}
+/* RESPONSIVE FOR MEDIUM DEVICE */
+@media (max-width:768px){
+   .img-fluid {
+      max-width: 60%;
+      height: auto;
+   }
+   #home .navbar-light .navbar-toggler-icon {
+      width: 2rem;
+      height: 2rem;
+   }
+   #home .navbar {
+      padding-top: 1rem;
+   }
+   .sticky {
+      top: 25px;
+  }
+   #home .header-section {
+      padding: 5rem 0;
+  }
+   #home h1 {
+      font-size: 9.6rem;
+      margin-bottom: 3rem;
+  }
+  #portfolio-bottom .col-md-4 {
+   padding: 0;
+   text-align: center;
+   }
+   #portfolio-bottom p {
+      width: 100%;
+  }
+  #project .col-md-3{
+     padding-left: 0;
+     padding-right: 0;
+  }
+  #project h4 {
+   font-size: 1.5rem;
+   }
+   #work .mixer-1{
+      height: 30rem;
+      width: 100%;
+   }
+   #work .text p {
+      font-size: 1.7rem;
+      margin-top: 1rem;
+   }
+   #contact-bottom img {
+      padding: 1.2rem 1.2rem;
+  }
+  footer{
+     background-attachment: scroll;
+  }
+  a.to-top-button.bp-br.bm-2 {
+   bottom: 50px;
+   right: 50px;
+   }
+   #contact{
+      padding: 5rem 0;
+   }
+}
+/* RESPONSIVE FOR SMALL DEVICE */
+@media (max-width:576px){
+   #home h1 {
+      font-size: 5.6rem;
+      margin-bottom: 3rem;
+  }
+  #home .btn {
+   padding: 1rem 7rem;
+   }
+   #portfolio-bottom p {
+      width: 80%;
+      margin: auto;
+          margin-bottom: auto;
+      margin-bottom: 6rem;
+  }
+  #portfolio-bottom .btn {
+   padding: 1.5rem 7rem;
+   margin-top: 2rem;
+   }
+   #portfolio-bottom {
+      padding: 6rem 0;
+   }
+   .num1, .num2, .num3, .num4 {
+      margin: 0px auto;
+      font-size: 5rem;
+   }
+   #project h4{
+      margin: 0;
+   }
+   #work .btn {
+      padding: 1rem 2rem;
+      margin-left: 1rem;
+  }
+  #clients .img-fluid {
+   max-width: 100%;
+   height: auto;
+   }
+   #contact .form-group {
+      padding: 0 3rem;
+   }
+   #contact{
+      padding: 5rem 0;
+   }
+   #contact-bottom {
+      padding: 5rem 0;
+   }
+   #contact-bottom .col-md-4{
+      margin-left: 10rem;
+   }
+   #work .controls {
+      margin-top: 5rem;
+  }
+  #portfolio-bottom h2 {
+   margin: 1rem 0;
+   }
+}
+/* RESPONSIVE FOR 480PX */
+@media(max-width:480px) {
+      
+   #home .header-section {
+      padding: 5rem 0;
+      text-align: center;
+      margin: auto;
+      }
+      #home h1 {
+         font-size: 4.6rem;
+         margin: auto;
+         margin-bottom: 3rem;
+     }
+     #home p {
+      margin: auto;
+   }
+   #portfolio-top {
+      padding: 5rem 0;
+   }
+   #portfolio-bottom .btn {
+      margin-top: 0rem;
+   }
+   #project h4 {
+      margin: auto;
+      margin-bottom: 5rem;
+   }
+   #project{
+      padding-bottom: 1rem;
+   }
+   #work .btn{
+      font-size: 1.5rem;
+   }
+   #work #mixer .col-lg-3 ,#work #mixer .col-lg-9 ,#work #mixer .col-6 ,#work #mixer .col-4 {
+      padding-right: 0;
+      padding-left: 0;
+      flex: 100%;
+      max-width: 100%;
+  }
+  #clients .for-ex-sm {
+   display: none;
+   }
+   #clients{
+      padding: 2rem 0;
+      padding-top: 5rem;
+   }
+   #contact .mb-sm-5 {
+      margin-bottom: 3rem;
+   }
+}
+/* RESPONSIVE FOR 420PX */
+@media(max-width:420px){
+   #project{
+      background-attachment: scroll;
+   }
+   #work .controls {
+      width: 43rem;
+   }
+   #work .btn {
+      padding: 1rem 1rem;
+   }
+   #contact-bottom .col-md-4 {
+      margin-left: 5rem;
+      margin-bottom: 2rem;
+   }
+   footer{
+      padding: 5rem 0;
+   }
+}
+/* RESPONSIVE FOR 360PX */
+@media (max-width:360px){
+   #home h1 {
+      font-size: 4.3rem;
+      letter-spacing: 1rem;
+      font-weight: 700;
+  }
+  #portfolio-bottom .btn {
+   margin-top: 0rem;
+   width: 100%;
+   letter-spacing: 0.1rem;
+   }
+   #home .navbar-toggler {
+      padding: 0.5rem;
+   }
+   #home .navbar {
+      padding-top: 0.5rem;
+   }
+   .sticky img {
+      width: 5rem;
+   }
+   #work .btn {
+      padding: 1rem 1rem;
+      margin-left: 0.5rem;
+      font-size: 1.3rem;
+   }
+   #work .controls {
+      width: 30rem;
+   }
+   #work .btn-project {
+      padding: 1.5rem 5rem;
+      letter-spacing: 0.1rem;
+  }
+  #work {
+   padding: 6rem 0;
+   }
+   #contact .btn {
+      padding: 1rem 11rem;
+   }
+   #contact-bottom .col-md-4 {
+      margin-left: 5rem;
+      margin-bottom: 2rem;
+   }
+   footer{
+      padding: 5rem 0;
+      background-attachment: scroll;
+   }
+}
+/* RESPONSIVE FOR 375PX */
+@media(max-width:375px){
+   #project{
+      background-attachment: scroll;
+   }
+   #work .controls {
+      width: 26rem;
+   }
+   #work{
+      padding: 5rem 0;
+   }
+   #work .btn-project {
+      padding: 1.5rem 4rem;
+  }
+  #contact .btn {
+   padding: 1rem 10rem;
+   }
+   #contact-bottom .col-md-4 {
+      margin-left: 5rem;
+      margin-bottom: 2rem;
+   }
+   footer{
+      padding: 5rem 0;
+   }
+}
+/* RESPONSIVE FOR 320PX */
+@media (max-width:320px){
+   #portfolio-bottom .btn {
+      padding: 1.5rem 3rem;
+   }
+   footer .fa {
+      margin: 0 1.5rem;
+   }
+}
